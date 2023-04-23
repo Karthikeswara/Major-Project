@@ -2,10 +2,7 @@ import cv2
 import mediapipe as mp
 import serial
 import time
-
 prevcmdval=99
-
-
 runIs = True
 print('Connecting to TTL........')
 try:
